@@ -24,7 +24,9 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         context=this;
+        x.Ext.setDebug(true);
         x.Ext.init(this);
+
         //通过代码注册你的AppKey和AppSecret
         MobSDK.init(this, Constants.APPKEY,Constants.APPSECRET);
 

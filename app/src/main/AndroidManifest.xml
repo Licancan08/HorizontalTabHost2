@@ -46,9 +46,9 @@
     <application
         android:name=".app.MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/tiao"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/tiao"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -155,10 +155,11 @@
         <activity android:name="com.andy.library.ChannelActivity" />
         <!-- 注册SDKActivity -->
 
-
+        <!--单例模式 解决跳转两次的问题   android:launchMode="singleTask"-->
         <!-- QQ第三方登录 -->
         <activity
             android:name="com.tencent.tauth.AuthActivity"
+
             android:launchMode="singleTask"
             android:noHistory="true">
             <intent-filter>

@@ -168,23 +168,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 menu.showSecondaryMenu();
                 break;
             case R.id.jia:
-                /*chanlist=new ArrayList<>();
-                ChannelBean chanbean=null;
-                *//**
-                 * 添加横滑菜单的信息
-                 *//*
-                for (int i = 0; i <beans.size() ; i++) {
-                    chanbean = new ChannelBean(beans.get(i).name,true);
-                    chanlist.add(chanbean);
-                }
-                *//**
-                 * 添加新的信息
-                 *//*
-                for (int i = 0; i <pindao.length ; i++) {
-                    chanbean = new ChannelBean(pindao[i],false);
-                    chanlist.add(chanbean);
-                }
-                ChannelActivity.startChannelActivity(MainActivity.this,chanlist);*/
+
                  pindaoUtils();
                 break;
         }
@@ -261,10 +245,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
-
         }
-
-
     }
 }

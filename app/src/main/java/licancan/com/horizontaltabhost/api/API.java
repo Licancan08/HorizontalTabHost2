@@ -7,7 +7,7 @@ package licancan.com.horizontaltabhost.api;
 public class API {
 
     public static final String URL_POST="http://v.juhe.cn/toutiao/index";
-    public static final String KEY="22a108244dbb8d1f49967cd74a0c144d";
+    public static final String KEY="b5bbc1256b3f6cc13f289117babe4b41";
     public static final String TYPE1="yule";
     public static final String TYPE2="temai";
     public static final String TYPE3="toutiao";
